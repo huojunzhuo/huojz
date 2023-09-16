@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generator dsName="pg"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="https://renlm.gitee.io/schemas/MyGenerator.xsd">
+
+    <url>jdbc:mysql://localhost:3306/mybatis_plus</url>
+    <username>root</username>
+    <password>abc123</password>
+
+    <module name="sys" package="com.atguigu.generator">
+        <table schema="public" author="Renlm" name="user" entity="true" excel="true" idType="ASSIGN_ID" />
+<!--        <table schema="public" author="Renlm" name="sys_file" idType="ASSIGN_ID" />-->
+    </module>
+</generator>

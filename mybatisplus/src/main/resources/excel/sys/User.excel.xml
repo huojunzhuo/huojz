@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excel name="com.atguigu.generator.sys.entity.User"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="https://renlm.gitee.io/schemas/MyExcel.xsd">
+	<sheet name="user">
+		<column field="id">
+			<title>id</title>
+		</column>
+        <column field="name">
+			<title>姓名</title>
+		</column>
+        <column field="age">
+			<title>年龄</title>
+		</column>
+        <column field="email">
+			<title>邮箱</title>
+		</column>
+        <column field="isDeleted">
+			<title>逻辑删除</title>
+		</column>
+        <column field="sex">
+			<title>性别</title>
+		</column>
+	</sheet>
+</excel>
