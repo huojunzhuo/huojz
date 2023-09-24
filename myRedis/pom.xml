@@ -7,15 +7,19 @@
     <version>0.0.1-SNAPSHOT</version>
     <parent>
         <groupId>com.itheima</groupId>
-        <artifactId>parent</artifactId>
+        <artifactId>huojz</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../parent/pom.xml</relativePath>
     </parent>
 
     <properties>
         <java.version>11</java.version>
     </properties>
     <dependencies>
+        <!--springboot起步依赖web开发-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
 
         <!--redis-jedis产品-->
         <dependency>

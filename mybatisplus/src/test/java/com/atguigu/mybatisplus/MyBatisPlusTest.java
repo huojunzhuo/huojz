@@ -1,18 +1,19 @@
 package com.atguigu.mybatisplus;
 
+import cn.hutool.core.util.StrUtil;
 import com.atguigu.mybatisplus.enums.SexEnum;
 import com.atguigu.mybatisplus.mapper.UserMapper;
 import com.atguigu.mybatisplus.pojo.Address;
 import com.atguigu.mybatisplus.pojo.Enterprise;
 import com.atguigu.mybatisplus.pojo.User;
+import ma.glasnost.orika.MapperFacade;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.Serializable;
+import java.util.*;
 
 /**
  * Date:2022/2/12
@@ -32,7 +33,8 @@ public class MyBatisPlusTest {
         List<User> list = userMapper.selectList(null);
         list.forEach(System.out::println);
     }
-
+    @Autowired
+    private MapperFacade mapperFacade;
     @Test
     public void testInsert(){
         //实现新增用户信息
@@ -49,6 +51,15 @@ public class MyBatisPlusTest {
         //1475754982694199298
         System.out.println("id:"+user.getId());
 
+    }
+    @Test
+    public void testJoin(){
+        Map<String, Object> map = Map.of("name", "Tom", "age", 20);
+        List.of();
+        Set<Integer> integers = Set.of(1, 2, 3);
+        String join = StrUtil.join(",", map);
+        System.out.println("join = " + join);
+        System.out.println(StrUtil.join(";", integers));
     }
 
     @Test
