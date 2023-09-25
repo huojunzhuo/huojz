@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/mq-demo/consumer/consumer.iml" filepath="$PROJECT_DIR$/mq-demo/consumer/consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/huojz.iml" filepath="$PROJECT_DIR$/.idea/huojz.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-demo/mq-demo.iml" filepath="$PROJECT_DIR$/mq-demo/mq-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/myRedis/myRedis.iml" filepath="$PROJECT_DIR$/myRedis/myRedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatisplus/mybatisplus.iml" filepath="$PROJECT_DIR$/mybatisplus/mybatisplus.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mq-demo/publisher/publisher.iml" filepath="$PROJECT_DIR$/mq-demo/publisher/publisher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/springcloud/springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-job/xxl-job.iml" filepath="$PROJECT_DIR$/xxl-job/xxl-job.iml" />
     </modules>
   </component>

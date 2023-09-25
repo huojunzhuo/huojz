@@ -8,7 +8,14 @@
         <option value="$PROJECT_DIR$/parent/pom.xml" />
         <option value="$PROJECT_DIR$/xxl-job/pom.xml" />
         <option value="$PROJECT_DIR$/mq-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/mq-demo/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/mq-demo/publisher/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11.0.13" project-jdk-type="JavaSDK" />

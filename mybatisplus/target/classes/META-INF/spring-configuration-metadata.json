@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "enterprise",
+      "type": "com.atguigu.mybatisplus.pojo.Enterprise",
+      "sourceType": "com.atguigu.mybatisplus.pojo.Enterprise"
+    },
+    {
+      "name": "enterprise.address",
+      "type": "com.atguigu.mybatisplus.pojo.Address",
+      "sourceType": "com.atguigu.mybatisplus.pojo.Address"
+    }
+  ],
+  "properties": [
+    {
+      "name": "enterprise.address",
+      "type": "com.atguigu.mybatisplus.pojo.Address",
+      "sourceType": "com.atguigu.mybatisplus.pojo.Enterprise"
+    },
+    {
+      "name": "enterprise.address.addr",
+      "type": "java.lang.Integer",
+      "sourceType": "com.atguigu.mybatisplus.pojo.Address"
+    },
+    {
+      "name": "enterprise.address.name",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.mybatisplus.pojo.Address"
+    },
+    {
+      "name": "enterprise.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.atguigu.mybatisplus.pojo.Enterprise"
+    },
+    {
+      "name": "enterprise.name",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.mybatisplus.pojo.Enterprise"
+    }
+  ],
+  "hints": []
+}

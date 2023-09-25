@@ -1,7 +1,9 @@
 package com.atguigu.mybatisplus.controller;
 
 import com.atguigu.mybatisplus.pojo.Customer;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,11 +21,15 @@ import java.time.LocalDateTime;
  */
 @RestController
 public class CustomerController {
-    @RequestMapping("/test")
+    @RequestMapping("/test/test")
     public Customer customer(@RequestBody Customer customer){
         Customer customer1 = new Customer();
         customer1.setName("Lisi");
         customer1.setCreateTime(LocalDateTime.now());
         return customer1;
+    }
+    @GetMapping("test")
+    public String testFeign(@Param("str") String str){
+        return str+str;
     }
 }
