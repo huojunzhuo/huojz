@@ -3,10 +3,7 @@ package com.atguigu.mybatisplus.controller;
 import com.atguigu.mybatisplus.pojo.Customer;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
 
@@ -28,8 +25,8 @@ public class CustomerController {
         customer1.setCreateTime(LocalDateTime.now());
         return customer1;
     }
-    @GetMapping("test")
-    public String testFeign(@Param("str") String str){
+    @GetMapping("/test")
+    public String testFeign( String str){
         return str+str;
     }
 }

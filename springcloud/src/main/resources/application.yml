@@ -15,3 +15,6 @@ spring:
   cloud:
     nacos:
       server-addr: http://localhost:8848/nacos # nacos地址
+feign:
+  okhttp:
+    enabled: true #开启okhttp连接池

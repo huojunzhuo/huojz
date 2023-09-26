@@ -3,6 +3,7 @@ package com.itheima.feign;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * ClassName: mybatisFeign
@@ -17,6 +18,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public interface mybatisFeign {
 
     @GetMapping("/test")
-    public String testFeign(@Param("str") String str) ;
+    public String testFeign(@RequestParam("str") String str) ;
 
 }
