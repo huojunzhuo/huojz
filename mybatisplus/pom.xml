@@ -66,6 +66,12 @@
             <artifactId>orika-spring-boot-starter</artifactId>
             <version>1.9.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.itheima</groupId>
+            <artifactId>hm-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
