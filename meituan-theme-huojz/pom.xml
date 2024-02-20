@@ -11,10 +11,9 @@
     <groupId>com.meituan</groupId>
     <artifactId>meituan-theme-huojz</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>meituan</name>
-    <description>meituan</description>
+
     <properties>
-        <java.version>17</java.version>
+        <java.version>8</java.version>
     </properties>
     <dependencies>
         <dependency>

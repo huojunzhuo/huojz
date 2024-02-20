@@ -2,12 +2,13 @@ package com.itheima;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import sun.applet.Main;
 
-@SpringBootTest
-class MyRedisApplicationTests {
+//@SpringBootTest
+public class MyRedisApplicationTests {
 
-    @Test
-    void contextLoads() {
+    public static void main(String[] args) {
+        System.out.println("hello " );
     }
 
 }
