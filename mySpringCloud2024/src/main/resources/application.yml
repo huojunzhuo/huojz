@@ -16,7 +16,10 @@ spring:
 
 # ========================mybatis===================
 mybatis:
+  # mapper映射文件的路径（resources）
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.atguigu.cloud.entities
+  # 实体类的包
+  type-aliases-package: com.itheima.mydemo.entities
+  # 开启驼峰命名
   configuration:
     map-underscore-to-camel-case: true

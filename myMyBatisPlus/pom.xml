@@ -9,7 +9,7 @@
     </parent>
 
     <groupId>com.atguigu</groupId>
-    <artifactId>mybatisplus</artifactId>
+    <artifactId>myMyBatisPlus</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>

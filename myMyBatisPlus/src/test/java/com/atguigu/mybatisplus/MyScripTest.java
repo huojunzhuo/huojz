@@ -1,13 +1,16 @@
-package com.itheima.mydemo;
+package com.atguigu.mybatisplus;
 
 import cn.hutool.script.ScriptUtil;
+
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.script.Bindings;
 import javax.script.CompiledScript;
 import javax.script.ScriptException;
 import javax.script.SimpleBindings;
+import java.util.List;
 
 /**
  * @Description js模板引擎计算公式测试
@@ -34,4 +37,6 @@ public class MyScripTest {
         }
         System.out.println("Hello JVAV!");
     }
+
+
 }

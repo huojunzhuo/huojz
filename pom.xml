@@ -24,7 +24,9 @@
         <module>hm-api</module>
         <module>myGateway</module>
         <module>item-service</module>
-        <module>hjz-demo-test</module>
+        <module>meituan-theme-huojz</module>
+        <module>mySpringCloud2024</module>
+
     </modules>
 
     <properties>

@@ -1,4 +1,4 @@
-package com.itheima.mydemo.service.controller;
+package com.itheima.mydemo.controller;
 
 import com.itheima.mydemo.entities.Pay;
 import com.itheima.mydemo.entities.PayDTO;
@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * ClassName: PayController
@@ -45,4 +46,10 @@ public class PayController {
         log.info("哈哈");
         return payService.getById(id);
     }//全部查询getall作为家庭作业
+
+    @GetMapping(value = "/pay/getAll")
+    public List<Pay> getAll(){
+        log.info("哈哈");
+        return payService.getAll();
+    }
 }

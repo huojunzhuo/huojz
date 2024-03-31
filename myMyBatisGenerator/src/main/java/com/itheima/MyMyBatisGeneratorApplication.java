@@ -1,4 +1,4 @@
-package com.itheima.mydemo;
+package com.itheima;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
 @MapperScan("com.itheima.mydemo.mapper")
-public class MyDemoApplication {
+public class MyMyBatisGeneratorApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MyDemoApplication.class, args);
+        SpringApplication.run(MyMyBatisGeneratorApplication.class, args);
     }
 
 }

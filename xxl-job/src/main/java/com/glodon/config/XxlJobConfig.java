@@ -1,6 +1,7 @@
 package com.glodon.config;
 
 import com.xxl.job.core.executor.impl.XxlJobSpringExecutor;
+import lombok.Value;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
