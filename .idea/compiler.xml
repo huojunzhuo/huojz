@@ -8,44 +8,35 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="xxl-job" />
-        <module name="hm-common" />
         <module name="item-service" />
+        <module name="myMyBatisGenerator" />
+        <module name="mySpringCloud2024" />
+        <module name="myMapper4" />
+        <module name="myMyBatisPlus" />
+        <module name="hm-common" />
+        <module name="publisher" />
         <module name="myRedis" />
         <module name="meituan-theme-huojz" />
-        <module name="mybatisplus" />
-        <module name="gateway" />
+        <module name="myGateway" />
+        <module name="consumer" />
         <module name="hm-api" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="consumer" target="1.8" />
-      <module name="gateway" target="11" />
-      <module name="hm-api" target="11" />
-      <module name="hm-common" target="11" />
-      <module name="huojz" target="11" />
-      <module name="item-service" target="11" />
-      <module name="meituan-theme-huojz" target="17" />
-      <module name="mq-demo" target="11" />
-      <module name="mybatisplus" target="11" />
-      <module name="myRedis" target="11" />
-      <module name="parent" target="1.8" />
-      <module name="publisher" target="11" />
-      <module name="springcloud" target="11" />
-      <module name="xxl-job" target="11" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="consumer" options="-parameters" />
-      <module name="gateway" options="-parameters" />
       <module name="hm-api" options="-parameters" />
       <module name="hm-common" options="-parameters" />
       <module name="item-service" options="-parameters" />
       <module name="meituan-theme-huojz" options="-parameters" />
+      <module name="myGateway" options="-parameters" />
+      <module name="myMapper4" options="-parameters" />
+      <module name="myMyBatisGenerator" options="-parameters" />
+      <module name="myMyBatisPlus" options="-parameters" />
       <module name="myRedis" options="-parameters" />
-      <module name="mybatisplus" options="-parameters" />
+      <module name="mySpringCloud2024" options="-parameters" />
       <module name="publisher" options="-parameters" />
-      <module name="springcloud" options="-parameters" />
       <module name="xxl-job" options="-parameters" />
     </option>
   </component>

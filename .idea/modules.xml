@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/hm-api/hm-api.iml" filepath="$PROJECT_DIR$/hm-api/hm-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/hm-common/hm-common.iml" filepath="$PROJECT_DIR$/hm-common/hm-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/huojz.iml" filepath="$PROJECT_DIR$/.idea/huojz.iml" />
       <module fileurl="file://$PROJECT_DIR$/item-service/item-service.iml" filepath="$PROJECT_DIR$/item-service/item-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/meituan-theme-huojz/meituan-theme-huojz.iml" filepath="$PROJECT_DIR$/meituan-theme-huojz/meituan-theme-huojz.iml" />
       <module fileurl="file://$PROJECT_DIR$/myRedis/myRedis.iml" filepath="$PROJECT_DIR$/myRedis/myRedis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatisplus/mybatisplus.iml" filepath="$PROJECT_DIR$/mybatisplus/mybatisplus.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-job/xxl-job.iml" filepath="$PROJECT_DIR$/xxl-job/xxl-job.iml" />
     </modules>
   </component>

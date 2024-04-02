@@ -12,8 +12,20 @@
     <file url="file://$PROJECT_DIR$/mq-demo/publisher/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mq-demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mq-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myGateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myGateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myMapper4/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myMyBatisGenerator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myMyBatisPlus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myMyBatisPlus/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myRabbitMQ/consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myRabbitMQ/publisher/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myRabbitMQ/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myRabbitMQ/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myRedis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myRedis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud2024/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud2024/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatisplus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatisplus/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent/src/main/java" charset="UTF-8" />
