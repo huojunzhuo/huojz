@@ -1,6 +1,14 @@
 package com.itheima.entities;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+import com.itheima.typeEnum.StatusEnum;
 import lombok.Data;
+import org.apache.ibatis.type.JdbcType;
+import tk.mybatis.mapper.annotation.ColumnType;
+import tk.mybatis.mapper.annotation.NameStyle;
+import tk.mybatis.mapper.code.Style;
 
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
@@ -13,10 +21,13 @@ import java.util.Date;
  * 表名：t_pay
  * 表注释：支付交易表
 */
+@TableName("t_pay")
 @Table(name = "t_pay")
+@NameStyle(Style.camelhumpAndLowercase)
 @Data
 public class Pay {
     @Id
+    @TableId(type = IdType.AUTO)
     @GeneratedValue(generator = "JDBC")
     private Integer id;
 
@@ -46,7 +57,8 @@ public class Pay {
     /**
      * 删除标志，默认0不删除，1删除
      */
-    private Byte deleted;
+    @Column(name = "deleted")
+    private Integer deleted;
 
     /**
      * 创建时间
@@ -65,6 +77,14 @@ public class Pay {
      */
     public Integer getId() {
         return id;
+    }
+
+    public int getDeleted() {
+        return deleted;
+    }
+
+    public void setDeleted(int deleted) {
+        this.deleted = deleted;
     }
 
     /**
@@ -146,23 +166,23 @@ public class Pay {
         this.amount = amount;
     }
 
-    /**
-     * 获取删除标志，默认0不删除，1删除
-     *
-     * @return deleted - 删除标志，默认0不删除，1删除
-     */
-    public Byte getDeleted() {
-        return deleted;
-    }
-
-    /**
-     * 设置删除标志，默认0不删除，1删除
-     *
-     * @param deleted 删除标志，默认0不删除，1删除
-     */
-    public void setDeleted(Byte deleted) {
-        this.deleted = deleted;
-    }
+//    /**
+//     * 获取删除标志，默认0不删除，1删除
+//     *
+//     * @return deleted - 删除标志，默认0不删除，1删除
+//     */
+//    public Byte getDeleted() {
+//        return deleted;
+//    }
+//
+//    /**
+//     * 设置删除标志，默认0不删除，1删除
+//     *
+//     * @param deleted 删除标志，默认0不删除，1删除
+//     */
+//    public void setDeleted(Byte deleted) {
+//        this.deleted = deleted;
+//    }
 
     /**
      * 获取创建时间

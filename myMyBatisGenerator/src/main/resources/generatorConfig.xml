@@ -11,8 +11,11 @@
         <property name="beginningDelimiter" value="`"/>
         <property name="endingDelimiter" value="`"/>
 
+        <!--通用 Mapper 插件，可以生成带注解的实体类-->
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <!--最关键的是mappers属性，配置后生成的 Mapper 接口都会自动继承上改接口-->
             <property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>
+            <!--是否区分大小写-->
             <property name="caseSensitive" value="true"/>
         </plugin>
         <!--读取jdbc属性-->
@@ -27,8 +30,12 @@
         <sqlMapGenerator targetPackage="${package.name}.mapper" targetProject="src/main/java"/>
         <!--读取包名位置：xml映射-->
         <javaClientGenerator targetPackage="${package.name}.mapper" targetProject="src/main/java" type="XMLMAPPER"/>
-        <!--表名与对象类型的映射，字段类型的映射-->
-        <table tableName="t_pay" domainObjectName="Pay">
+        <!--表名与对象类型的映射，字段类型的映射，可以配置多个-->
+        <table tableName="t_pay" domainObjectName="Pay"
+               enableCountByExample="true"
+               enableUpdateByExample="true"
+               enableDeleteByExample="true"
+               enableSelectByExample="true">
             <generatedKey column="id" sqlStatement="JDBC"/>
         </table>
     </context>
