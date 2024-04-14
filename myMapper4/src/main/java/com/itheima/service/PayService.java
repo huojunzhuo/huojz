@@ -3,6 +3,8 @@ package com.itheima.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.itheima.entities.Pay;
 
+import java.util.List;
+
 
 /**
 * @author HJZ
@@ -11,4 +13,5 @@ import com.itheima.entities.Pay;
 */
 public interface PayService extends IService<Pay> {
 
+    public List<Pay> findPays();
 }

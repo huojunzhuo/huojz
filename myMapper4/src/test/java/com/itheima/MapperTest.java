@@ -4,7 +4,11 @@ import cn.hutool.core.date.DateTime;
 import com.itheima.entities.Pay;
 import com.itheima.mapper.PayMapper;
 import com.itheima.typeEnum.StatusEnum;
+import lombok.Data;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import tk.mybatis.mapper.entity.Example;
@@ -18,7 +22,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootTest
+@Data
 public class MapperTest {
+    Logger logger = LogManager.getLogger(MapperTest.class);
+    
     @Autowired
     PayMapper payMapper;
 
@@ -93,4 +100,18 @@ public class MapperTest {
         System.out.println("pay = " + pay);
     }
 
+    @Test
+    public void testSelectAll(){
+        List<Pay> pays = payMapper.selecAll();
+        logger.info("info信息");
+        logger.error("error信息");
+        logger.debug("debug信息");
+        pays.forEach(System.out::println);
+    }
+    @Test
+    public void testLog(){
+        logger.info("info信息");
+        logger.error("error信息");
+        logger.debug("debug信息");
+    }
 }
