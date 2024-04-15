@@ -84,6 +84,7 @@
             <AppenderRef ref="Console"/>
         </Logger>
 
+        <!-- 设置根日志记录器的级别为DEBUG -->
         <root level="debug">
             <appender-ref ref="Console"/>
             <appender-ref ref="Filelog"/>
