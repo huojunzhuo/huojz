@@ -1,0 +1,17 @@
+23:08:48.744 [main] INFO  com.itheima.MapperTest - Starting MapperTest using Java 11.0.13 on HJZ-PC-TB with PID 28820 (started by huojz in D:\Java\workspace\huojz\myMapper4)
+23:08:48.749 [main] INFO  com.itheima.MapperTest - The following 1 profile is active: "test"
+23:08:49.281 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+23:08:49.356 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23:08:49.809 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.insert] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Insert]
+23:08:49.812 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+23:08:49.821 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.selectCount] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectCount]
+23:08:50.336 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+23:08:50.337 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+23:08:50.337 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+23:08:50.337 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+23:08:50.453 [main] INFO  com.itheima.MapperTest - Started MapperTest in 1.949 seconds (JVM running for 2.847)
+23:08:50.876 [main] DEBUG com.itheima.mapper.PayMapper.selectByExample - ==>  Preparing: SELECT id,pay_no,order_no,user_id,amount,deleted,create_time,update_time,rel_id FROM t_pay WHERE deleted = 0 and ( ( id in ( ? , ? ) ) and ( rel_id is null ) )
+23:08:50.895 [main] DEBUG com.itheima.mapper.PayMapper.selectByExample - ==> Parameters: 1(Integer), 2(Integer)
+23:08:50.911 [main] DEBUG com.itheima.mapper.PayMapper.selectByExample - <==      Total: 1
+23:08:50.944 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+23:08:50.952 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
