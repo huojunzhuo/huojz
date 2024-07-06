@@ -2,29 +2,30 @@ package com.itheima;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.date.DateTime;
 import com.itheima.entities.Pay;
 import com.itheima.mapper.PayMapper;
 import com.itheima.mapper.UserMapper;
 import com.itheima.typeEnum.StatusEnum;
+import com.itheima.mapper.UserMapper;
 import lombok.Data;
 import org.apache.ibatis.session.RowBounds;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import tk.mybatis.mapper.entity.Example;
-import tk.mybatis.mapper.util.Sqls;
 import tk.mybatis.mapper.weekend.Weekend;
+import tk.mybatis.mapper.weekend.WeekendCriteria;
 import tk.mybatis.mapper.weekend.WeekendSqls;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -68,16 +69,18 @@ public class MapperTest {
     public void testInsert3() {
         Pay pay3 = new Pay();
         pay3.setDeleted(0);
-        pay3.setPayNo("paynum2");
-        pay3.setOrderNo("orderNum2");
+        pay3.setPayNo("paynum3");
+        pay3.setOrderNo("orderNum3");
         pay3.setAmount(BigDecimal.valueOf(9.902));
+        pay3.setUserId(123);
         pay3.setCreateTime(DateTime.now());
         pay3.setUpdateTime(DateTime.now());
         Pay pay4 = new Pay();
         pay4.setDeleted(0);
-        pay4.setPayNo("paynum2");
-        pay4.setOrderNo("orderNum2");
+        pay4.setPayNo("paynum4");
+        pay4.setOrderNo("orderNum4");
         pay4.setAmount(BigDecimal.valueOf(9.902));
+        pay4.setUserId(456);
         pay4.setCreateTime(DateTime.now());
         pay4.setUpdateTime(DateTime.now());
 //        int insert = payMapper.insert(pay3);
@@ -115,14 +118,6 @@ public class MapperTest {
         Assertions.assertEquals(1,i);
     }
 
-    @Test
-    public void testMapper4AndMybatisPlus(){
-        List<Pay> pays = payMapper.selectBatchIds(List.of(1, 2));
-        pays.forEach(System.out::println);
-        Pay pay = payMapper.selectById(1);
-        System.out.println("pay = " + pay);
-    }
-
     //1.查询所有
     @Test
     public void testSelectAll(){
@@ -141,18 +136,6 @@ public class MapperTest {
     //3.根据Example条件查询
     @Test
     public void testExample() {
-        //封装类别的查询条件
-        Example example = new Example(Pay.class);
-        List<Integer> ids = List.of(1, 6);
-        example.createCriteria().andIn("id", ids).andLike("payNo", "%num%").orIsNotNull("userId");
-        List<Pay> pays = payMapper.selectByExample(example);
-        System.out.println("pays = " + pays);
-        pays.forEach(System.out::println);
-    }
-    //3.根据Example条件查询
-    @Test
-    public void testExample2() {
-        //封装类别的查询条件
         Example example = new Example(Pay.class);
         List<Integer> ids = List.of(1, 6);
         example.createCriteria().andIn("id", ids).orIsNotNull("userId")
@@ -173,6 +156,17 @@ public class MapperTest {
                 .build();
         List<Pay> pays = payMapper.selectByExample(example);
         System.out.println("pays = " + pays);
+        pays.forEach(System.out::println);
+    }
+    @Test
+    public void testWeekend2(){
+        Weekend<Pay> wk = Weekend.of(Pay.class);
+        wk.weekendCriteria().andIn(Pay::getId, Arrays.asList(1,2));
+        Weekend<Pay> wk2 = Weekend.of(Pay.class);
+        WeekendCriteria<Pay, Object> wkca = wk2.weekendCriteria();
+        wkca.orIsNull(Pay::getRelId).andGreaterThan(Pay::getAmount,9.9);
+        wk.and(wkca);
+        List<Pay> pays = payMapper.selectByExample(wk);
         pays.forEach(System.out::println);
     }
     //5.分页查询

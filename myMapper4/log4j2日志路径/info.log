@@ -1,0 +1,154 @@
+22:30:45.720 [main] INFO  com.itheima.MapperTest - Starting MapperTest using Java 11.0.13 on HJZ-PC-TB with PID 25684 (started by huojz in D:\Java\workspace\huojz\myMapper4)
+22:30:45.727 [main] INFO  com.itheima.MapperTest - The following 1 profile is active: "test"
+22:30:46.421 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+22:30:46.525 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+22:30:47.016 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.insert] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Insert]
+22:30:47.020 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+22:30:47.029 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.selectCount] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectCount]
+22:30:47.608 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+22:30:47.609 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+22:30:47.609 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+22:30:47.610 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+22:30:47.742 [main] INFO  com.itheima.MapperTest - Started MapperTest in 2.348 seconds (JVM running for 3.712)
+22:30:48.281 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+22:30:48.287 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+22:34:44.946 [main] INFO  com.itheima.MapperTest - Starting MapperTest using Java 11.0.13 on HJZ-PC-TB with PID 25664 (started by huojz in D:\Java\workspace\huojz\myMapper4)
+22:34:44.951 [main] INFO  com.itheima.MapperTest - The following 1 profile is active: "test"
+22:34:45.492 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+22:34:45.567 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+22:34:46.030 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.insert] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Insert]
+22:34:46.033 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+22:34:46.043 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.selectCount] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectCount]
+22:34:46.581 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+22:34:46.582 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+22:34:46.582 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+22:34:46.582 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+22:34:46.697 [main] INFO  com.itheima.MapperTest - Started MapperTest in 1.986 seconds (JVM running for 2.826)
+22:34:47.165 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+22:34:47.170 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+22:36:04.326 [main] INFO  com.itheima.MapperTest - Starting MapperTest using Java 11.0.13 on HJZ-PC-TB with PID 26408 (started by huojz in D:\Java\workspace\huojz\myMapper4)
+22:36:04.330 [main] INFO  com.itheima.MapperTest - The following 1 profile is active: "test"
+22:36:04.898 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+22:36:04.976 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+22:36:05.456 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.insert] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Insert]
+22:36:05.459 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+22:36:05.471 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.selectCount] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectCount]
+22:36:06.033 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+22:36:06.034 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+22:36:06.034 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+22:36:06.034 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+22:36:06.144 [main] INFO  com.itheima.MapperTest - Started MapperTest in 2.05 seconds (JVM running for 2.865)
+22:36:06.602 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+22:36:06.607 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+22:36:35.771 [main] INFO  com.itheima.MapperTest - Starting MapperTest using Java 11.0.13 on HJZ-PC-TB with PID 22892 (started by huojz in D:\Java\workspace\huojz\myMapper4)
+22:36:35.776 [main] INFO  com.itheima.MapperTest - The following 1 profile is active: "test"
+22:36:36.349 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+22:36:36.427 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+22:36:36.899 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.insert] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Insert]
+22:36:36.902 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+22:36:36.913 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.selectCount] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectCount]
+22:36:37.471 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+22:36:37.471 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+22:36:37.472 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+22:36:37.472 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+22:36:37.575 [main] INFO  com.itheima.MapperTest - Started MapperTest in 2.063 seconds (JVM running for 2.893)
+22:36:38.051 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+22:36:38.056 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+22:38:12.100 [main] INFO  com.itheima.MapperTest - Starting MapperTest using Java 11.0.13 on HJZ-PC-TB with PID 26620 (started by huojz in D:\Java\workspace\huojz\myMapper4)
+22:38:12.105 [main] INFO  com.itheima.MapperTest - The following 1 profile is active: "test"
+22:38:12.660 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+22:38:12.741 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+22:38:13.216 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.insert] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Insert]
+22:38:13.220 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+22:38:13.232 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.selectCount] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectCount]
+22:38:13.801 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+22:38:13.802 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+22:38:13.803 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+22:38:13.803 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+22:38:13.924 [main] INFO  com.itheima.MapperTest - Started MapperTest in 2.067 seconds (JVM running for 2.867)
+22:38:14.426 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+22:38:14.431 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+22:41:39.000 [main] INFO  com.itheima.MapperTest - Starting MapperTest using Java 11.0.13 on HJZ-PC-TB with PID 24992 (started by huojz in D:\Java\workspace\huojz\myMapper4)
+22:41:39.006 [main] INFO  com.itheima.MapperTest - The following 1 profile is active: "test"
+22:41:39.545 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+22:41:39.623 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+22:41:40.091 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.insert] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Insert]
+22:41:40.094 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+22:41:40.105 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.selectCount] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectCount]
+22:41:40.641 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+22:41:40.642 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+22:41:40.642 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+22:41:40.642 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+22:41:40.754 [main] INFO  com.itheima.MapperTest - Started MapperTest in 1.99 seconds (JVM running for 2.81)
+22:41:41.238 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+22:41:41.242 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+22:42:06.025 [main] INFO  com.itheima.MapperTest - Starting MapperTest using Java 11.0.13 on HJZ-PC-TB with PID 27432 (started by huojz in D:\Java\workspace\huojz\myMapper4)
+22:42:06.030 [main] INFO  com.itheima.MapperTest - The following 1 profile is active: "test"
+22:42:06.573 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+22:42:06.651 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+22:42:07.131 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.insert] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Insert]
+22:42:07.134 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+22:42:07.145 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.selectCount] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectCount]
+22:42:07.706 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+22:42:07.707 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+22:42:07.707 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+22:42:07.707 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+22:42:07.820 [main] INFO  com.itheima.MapperTest - Started MapperTest in 2.035 seconds (JVM running for 2.876)
+22:42:08.259 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+22:42:08.264 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+22:46:04.309 [main] INFO  com.itheima.MapperTest - Starting MapperTest using Java 11.0.13 on HJZ-PC-TB with PID 24096 (started by huojz in D:\Java\workspace\huojz\myMapper4)
+22:46:04.314 [main] INFO  com.itheima.MapperTest - The following 1 profile is active: "test"
+22:46:04.836 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+22:46:04.909 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+22:46:05.388 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.insert] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Insert]
+22:46:05.391 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+22:46:05.401 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.selectCount] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectCount]
+22:46:05.969 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+22:46:05.970 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+22:46:05.971 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+22:46:05.971 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+22:46:06.088 [main] INFO  com.itheima.MapperTest - Started MapperTest in 2.023 seconds (JVM running for 2.902)
+22:46:06.539 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+22:46:06.545 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+22:57:40.014 [main] INFO  com.itheima.MapperTest - Starting MapperTest using Java 11.0.13 on HJZ-PC-TB with PID 21384 (started by huojz in D:\Java\workspace\huojz\myMapper4)
+22:57:40.019 [main] INFO  com.itheima.MapperTest - The following 1 profile is active: "test"
+22:57:40.559 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+22:57:40.632 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+22:57:41.099 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.insert] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Insert]
+22:57:41.102 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+22:57:41.112 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.selectCount] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectCount]
+22:57:41.635 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+22:57:41.635 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+22:57:41.636 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+22:57:41.636 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+22:57:41.754 [main] INFO  com.itheima.MapperTest - Started MapperTest in 1.977 seconds (JVM running for 2.917)
+22:57:42.252 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+22:57:42.258 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+23:07:50.997 [main] INFO  com.itheima.MapperTest - Starting MapperTest using Java 11.0.13 on HJZ-PC-TB with PID 27900 (started by huojz in D:\Java\workspace\huojz\myMapper4)
+23:07:51.003 [main] INFO  com.itheima.MapperTest - The following 1 profile is active: "test"
+23:07:51.621 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+23:07:51.698 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23:07:52.158 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.insert] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Insert]
+23:07:52.161 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+23:07:52.170 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.selectCount] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectCount]
+23:07:52.730 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+23:07:52.731 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+23:07:52.731 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+23:07:52.731 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+23:07:52.847 [main] INFO  com.itheima.MapperTest - Started MapperTest in 2.111 seconds (JVM running for 3.099)
+23:07:53.349 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+23:07:53.356 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+23:08:48.744 [main] INFO  com.itheima.MapperTest - Starting MapperTest using Java 11.0.13 on HJZ-PC-TB with PID 28820 (started by huojz in D:\Java\workspace\huojz\myMapper4)
+23:08:48.749 [main] INFO  com.itheima.MapperTest - The following 1 profile is active: "test"
+23:08:49.281 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+23:08:49.356 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23:08:49.809 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.insert] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Insert]
+23:08:49.812 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+23:08:49.821 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod - [com.itheima.mapper.PayMapper.selectCount] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectCount]
+23:08:50.336 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+23:08:50.337 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+23:08:50.337 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+23:08:50.337 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+23:08:50.453 [main] INFO  com.itheima.MapperTest - Started MapperTest in 1.949 seconds (JVM running for 2.847)
+23:08:50.944 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+23:08:50.952 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
